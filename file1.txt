@@ -1,1 +1,3 @@
 Hello this is my first git file
+This is my second line and i add this on text1 file and try to commit.
+This is third line added
