@@ -67,9 +67,9 @@ def adjust_header_for_gps(header, random_row):
 
 def get_data_and_insert_to_sql():
     # Retrieve API credentials from environment variables
-    epicollect_client_id = os.environ.get("2987")
-    epicollect_client_secret = os.environ.get("ustmO5mWLbCPdkwVqjAEHWjkbed8u09KBWRZC45G")
-    epicollect_survey_name = os.environ.get("daily-sales-tigers-brewery")
+    epicollect_client_id = os.environ.get("id")
+    epicollect_client_secret = os.environ.get("secret")
+    epicollect_survey_name = os.environ.get("name")
 
     # Retrieve SQL Server credentials from environment variables
     # sql_server_connection_string = os.environ.get("SQL_SERVER_CONNECTION_STRING")
